@@ -2,6 +2,8 @@ const recordButton = document.getElementById('record-button');
 const analysisScreen = document.getElementById('analysis-screen');
 const resultContainer = document.getElementById('result-container');
 
+// xd
+
 recordButton.addEventListener('click', () => {
   recordButton.disabled = true;
   // Temporarily remove the active class for visual feedback
@@ -17,6 +19,10 @@ recordButton.addEventListener('click', () => {
     simulateAnalysis();
   }, 5000); // Simulate 5 seconds of "recording"
 });
+
+// Hahah, this is so funny .. some people I showed this in a presentation in London
+// actually thought this is working and they were saying "Whaaat? it says I am 50 years old"
+// xd
 
 function startRecordingAnimation() {
   // Placeholder for the recording animation logic
